@@ -6,10 +6,10 @@ export default function create(props) {
 
     const [Dataform,setDataform] = React.useState(
         {
-        fullname: "dvvd",
-        temperature: '6363',
-        email: 'ccasc@cac.com',
-        phonenumber: '253'
+        fullname: "",
+        temperature: '',
+        email: '',
+        phonenumber: ''
     })
 
     const onchangeDataform = (e) => {
